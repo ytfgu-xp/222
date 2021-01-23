@@ -17,5 +17,10 @@ public class StarsWithDemo {
         //判断str是否以m结束
         boolean s1=str.endsWith("m");
         System.out.println(s1);
+        String s3="hello java";
+        boolean s4=s3.startsWith("h");
+        System.out.println(s4);
+        boolean s5=s3.endsWith("j");
+        System.out.println(s5);
     }
 }

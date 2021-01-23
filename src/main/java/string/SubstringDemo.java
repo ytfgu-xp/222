@@ -13,6 +13,9 @@ public class SubstringDemo {
         //重载的substring传入一个参数为：从指定位置截取道字符串末尾
         sub=host.substring(4);
         System.out.println(sub);
+        String str="www.baidu.com";
+        String str1=str.substring(4,7);//是从第4个小标开始包含4 7是从第七个结束但不包含7（含头不含尾）
+        System.out.println(str1);
 
     }
 }

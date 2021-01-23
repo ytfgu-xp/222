@@ -11,5 +11,9 @@ public class CharAtDemo {
         String str1="hello world";
         char b=str1.charAt(6);
         System.out.println(b);
+        String str2="ytfgu_xp";
+        char c1=str2.charAt(5);
+        System.out.println(c1);
+
     }
 }

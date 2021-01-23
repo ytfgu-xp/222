@@ -16,6 +16,11 @@ public class ToUpperCaseDemo {
         System.out.println(str1);
         String str2=str.toLowerCase();//转小写
         System.out.println(str2);
+        String str3="ytfgu_xp";
+        String str4=str3.toUpperCase();
+        System.out.println(str4);
+        String str5=str3.toLowerCase();
+        System.out.println(str5);
 
     }
 }

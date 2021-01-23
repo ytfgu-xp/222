@@ -10,5 +10,8 @@ public class LengthDemo {
         String str="我爱我家";
         int len=str.length();
         System.out.println("我爱我家的长度为："+len);
+        String str1="同一个世界，同一个梦想";
+        int length=str1.length();//int length 获取字符串的长度也就是字符串的个数
+        System.out.println(length);
     }
 }
