@@ -14,6 +14,12 @@ public class ValueOfDemo {
         System.out.println(str1);
         String s3=i+"";
         System.out.println(s3);
+        int a=1111111;
+        String b=String.valueOf(a);
+        System.out.println(b);
+        double c=123.12313;
+        String d=String.valueOf(c);//String.valueof()；基本类型转换为字符串类型
+        System.out.println(d);//String valueof；基本类型转换为字符串
 
     }
 }
