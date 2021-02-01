@@ -17,5 +17,6 @@ public class SubstringDemo {
         String str1=str.substring(4,7);//是从第4个小标开始包含4 7是从第七个结束但不包含7（含头不含尾）
         System.out.println(str1);
 
+
     }
 }

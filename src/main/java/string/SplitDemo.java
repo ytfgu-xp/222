@@ -22,5 +22,17 @@ public class SplitDemo {
             System.out.println(a[i]);
 
         }
+        //将字符串进行拆分
+        String name="4343.544.544.4867.5646";
+        String[] b=name.split("\\.");
+        for(int j=0;j<b.length;j++){
+            System.out.println(b[j]);
+        }
+        //将字符按照字母拆分
+        String n="dagd54454dgf4544f4g564fda45da454434gd5454f545g4a4";
+        String[] c=n.split("[0-9]+");
+        for(int k=0;k<c.length;k++){
+            System.out.println(c[k]);
+        }
     }
 }

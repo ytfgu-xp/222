@@ -14,5 +14,21 @@ public class replaceAllDemo {
         String message="fk,你是一个dsb，哈哈哈";
         message=message.replaceAll(ch,"***");
         System.out.println(message);
+        //用正则表达式去替换部分内容(str1=str1.replaceAll("正则表达式规则"，"需要替换的内容"))
+        String str1="dajkgdja1344akdf4545";
+        str1=str1.replaceAll("[0-9]+","***");
+        System.out.println(str1.toString());
+
+        String str3="你好，你是一个dsb，wcnm";
+        String str2="(cnm|dsb|wcnm|nc|fk|djb)";
+        str3=str3.replaceAll(str2,"***");
+        System.out.println(str3.toString());
+        //隐藏脏话
+        String st="你是一个dsb，wcnm，你走吧！";
+        String s="(dsb|cnm|wcnm)";
+        st=st.replaceAll(s,"***");
+        System.out.println(st.toString());
+
+
     }
 }
